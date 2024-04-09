@@ -124,7 +124,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-count">1</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -191,7 +191,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2024-04-09 11:58:59" itemprop="dateModified" datetime="2024-04-09T11:58:59+08:00">2024-04-09</time>
+      <time title="修改时间：2024-04-09 23:24:52" itemprop="dateModified" datetime="2024-04-09T23:24:52+08:00">2024-04-09</time>
     </span>
 
   
@@ -226,104 +226,12 @@
 <h1 id="安装-NexT-模版"><a href="#安装-NexT-模版" class="headerlink" title="安装 NexT 模版"></a>安装 NexT 模版</h1><p>参考链接：<a target="_blank" rel="noopener" href="https://theme-next.js.org/docs/getting-started/#NexT-Installation">NexT安装文档</a></p>
 <h2 id="安装NexT"><a href="#安装NexT" class="headerlink" title="安装NexT"></a>安装NexT</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> hexo-site</span><br><span class="line">$ npm install hexo-theme-next</span><br></pre></td></tr></table></figure>
 
-<h2 id="更新NexT"><a href="#更新NexT" class="headerlink" title="更新NexT"></a>更新NexT</h2><p>更新时需要查看更新记录，主要同步调整配置文件。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> hexo-site</span><br><span class="line">$ npm install hexo-theme-next@latest</span><br></pre></td></tr></table></figure>
+<h2 id="更新NexT"><a href="#更新NexT" class="headerlink" title="更新NexT"></a>更新NexT</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> hexo-site</span><br><span class="line">$ npm install hexo-theme-next@latest</span><br></pre></td></tr></table></figure>
 
-<h2 id="复制配置文件"><a href="#复制配置文件" class="headerlink" title="复制配置文件"></a>复制配置文件</h2><p>后续配置直接在 <code>_config.next.yml</code> 修改。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Installed through npm</span></span><br><span class="line"><span class="built_in">cp</span> node_modules/hexo-theme-next/_config.yml _config.next.yml</span><br></pre></td></tr></table></figure>
+<h2 id="复制配置文件"><a href="#复制配置文件" class="headerlink" title="复制配置文件"></a>复制配置文件</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Installed through npm</span></span><br><span class="line"><span class="built_in">cp</span> node_modules/hexo-theme-next/_config.yml _config.next.yml</span><br></pre></td></tr></table></figure>
 
-<h2 id="激活NexT"><a href="#激活NexT" class="headerlink" title="激活NexT"></a>激活NexT</h2><p>打开 Hexo 配置文件 <code>_config.yml</code>  找到<code>theme</code> 修改为next。</p>
+<h2 id="激活NexT"><a href="#激活NexT" class="headerlink" title="激活NexT"></a>激活NexT</h2><p>打开 Hexo 配置文件 <code>_config.yml</code>  找到<code>theme</code></p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">theme: next</span><br></pre></td></tr></table></figure>
-
-<p>运行服务确认激活情况</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<h1 id="配置NexT"><a href="#配置NexT" class="headerlink" title="配置NexT"></a>配置NexT</h1><h2 id="一般配置"><a href="#一般配置" class="headerlink" title="一般配置"></a>一般配置</h2><p>打开配置文件 &#96;_config.next.yml</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># Remove unnecessary files after hexo generate.</span><br><span class="line">minify: true</span><br></pre></td></tr></table></figure>
-
-<p>选择模版</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">#NexT config file</span><br><span class="line">#scheme: Muse</span><br><span class="line">#scheme: Mist</span><br><span class="line">#scheme: Pisces</span><br><span class="line">scheme: Gemini</span><br></pre></td></tr></table></figure>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://odaywu.github.io/2024/04/07/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Oday Wu">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="行者结绳">
-      <meta itemprop="description" content="行者结绳，且行且珍惜。">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | 行者结绳">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2024/04/07/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2024-04-07 22:44:45" itemprop="dateCreated datePublished" datetime="2024-04-07T22:44:45+08:00">2024-04-07</time>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 
       
     </div>
