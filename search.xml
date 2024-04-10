@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>安装记录</title>
+    <url>/2024/04/08/setup-log/</url>
+    <content><![CDATA[<h1 id="前置安装"><a href="#前置安装" class="headerlink" title="前置安装"></a>前置安装</h1><ol>
+<li>安装nodejs</li>
+<li>安装git</li>
+<li>安装VS Code</li>
+</ol>
+<h1 id="Hexo安装-常用指令"><a href="#Hexo安装-常用指令" class="headerlink" title="Hexo安装&amp;常用指令"></a>Hexo安装&amp;常用指令</h1><p>参考链接：<a href="https://hexo.io/zh-cn/docs/index.html" title="Hexo官网">Hexo官网</a></p>
+<h2 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+
+<h2 id="常用指令"><a href="#常用指令" class="headerlink" title="常用指令"></a>常用指令</h2><h3 id="新建一个网站"><a href="#新建一个网站" class="headerlink" title="新建一个网站"></a>新建一个网站</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo init &lt;folder&gt;</span><br><span class="line">$ <span class="built_in">cd</span> &lt;folder&gt;</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
+
+<h3 id="新建一篇文章"><a href="#新建一篇文章" class="headerlink" title="新建一篇文章"></a>新建一篇文章</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="运行服务"><a href="#运行服务" class="headerlink" title="运行服务"></a>运行服务</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<h3 id="生成静态文件"><a href="#生成静态文件" class="headerlink" title="生成静态文件"></a>生成静态文件</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br><span class="line">$ hexo g  <span class="comment">#简写</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="清除静态文件"><a href="#清除静态文件" class="headerlink" title="清除静态文件"></a>清除静态文件</h3><p>清除缓存文件 (<code>db.json</code>) 和已生成的静态文件 (<code>public</code>)</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo clean</span><br></pre></td></tr></table></figure>
+
+<h1 id="安装-NexT-模版"><a href="#安装-NexT-模版" class="headerlink" title="安装 NexT 模版"></a>安装 NexT 模版</h1><p>参考链接：<a href="https://theme-next.js.org/docs/getting-started/#NexT-Installation">NexT安装文档</a></p>
+<h2 id="安装NexT"><a href="#安装NexT" class="headerlink" title="安装NexT"></a>安装NexT</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> hexo-site</span><br><span class="line">$ npm install hexo-theme-next</span><br></pre></td></tr></table></figure>
+
+<h2 id="更新NexT"><a href="#更新NexT" class="headerlink" title="更新NexT"></a>更新NexT</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> hexo-site</span><br><span class="line">$ npm install hexo-theme-next@latest</span><br></pre></td></tr></table></figure>
+
+<h2 id="复制配置文件"><a href="#复制配置文件" class="headerlink" title="复制配置文件"></a>复制配置文件</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Installed through npm</span></span><br><span class="line"><span class="built_in">cp</span> node_modules/hexo-theme-next/_config.yml _config.next.yml</span><br></pre></td></tr></table></figure>
+
+<h2 id="激活NexT"><a href="#激活NexT" class="headerlink" title="激活NexT"></a>激活NexT</h2><p>打开 Hexo 配置文件 <code>_config.yml</code>  找到<code>theme</code></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">theme: next</span><br></pre></td></tr></table></figure>
+]]></content>
+      <tags>
+        <tag>Hexo NexT setup</tag>
+      </tags>
+  </entry>
+</search>
