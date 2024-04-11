@@ -1,6 +1,7 @@
+https://odaywu.github.io/2024/04/10/test/
+https://odaywu.github.io/2024/04/08/setup-log/
 https://odaywu.github.io/about/index.html
 https://odaywu.github.io/categories/index.html
 https://odaywu.github.io/tags/index.html
-https://odaywu.github.io/2024/04/08/setup-log/
 https://odaywu.github.io/
 https://odaywu.github.io/tags/Hexo-NexT-setup/

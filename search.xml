@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>test</title>
+    <url>/2024/04/10/test/</url>
+    <content><![CDATA[<p><img data-src="/images/android-chrome-512x512.png" alt="logo"></p>
+]]></content>
+  </entry>
+  <entry>
     <title>安装记录</title>
     <url>/2024/04/08/setup-log/</url>
     <content><![CDATA[<h1 id="前置安装"><a href="#前置安装" class="headerlink" title="前置安装"></a>前置安装</h1><ol>
@@ -31,6 +37,9 @@
 
 <h2 id="激活NexT"><a href="#激活NexT" class="headerlink" title="激活NexT"></a>激活NexT</h2><p>打开 Hexo 配置文件 <code>_config.yml</code>  找到<code>theme</code></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">theme: next</span><br></pre></td></tr></table></figure>
+
+<p><img data-src="/images/setup-log/1712753413435.png" alt="1712753413435"></p>
+<p><img data-src="/images%5Candroid-chrome-192x192.png" alt="iamge"></p>
 ]]></content>
       <tags>
         <tag>Hexo NexT setup</tag>
