@@ -3,4 +3,10 @@ https://odaywu.github.io/about/index.html
 https://odaywu.github.io/categories/index.html
 https://odaywu.github.io/tags/index.html
 https://odaywu.github.io/
-https://odaywu.github.io/tags/Hexo-NexT-setup/
+https://odaywu.github.io/tags/Hexo/
+https://odaywu.github.io/tags/NexT/
+https://odaywu.github.io/tags/Setup/
+https://odaywu.github.io/categories/%E5%AE%89%E8%A3%85%E8%AE%B0%E5%BD%95/
+https://odaywu.github.io/categories/%E5%AE%89%E8%A3%85%E8%AE%B0%E5%BD%95/Hexo/
+https://odaywu.github.io/categories/%E6%8A%98%E8%85%BE%E6%97%A5%E8%AE%B0/
+https://odaywu.github.io/categories/%E6%8A%98%E8%85%BE%E6%97%A5%E8%AE%B0/Code/

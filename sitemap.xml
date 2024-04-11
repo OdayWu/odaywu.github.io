@@ -47,12 +47,54 @@
 
   
   <url>
-    <loc>https://odaywu.github.io/tags/Hexo-NexT-setup/</loc>
+    <loc>https://odaywu.github.io/tags/Hexo/</loc>
+    <lastmod>2024-04-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://odaywu.github.io/tags/NexT/</loc>
+    <lastmod>2024-04-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://odaywu.github.io/tags/Setup/</loc>
     <lastmod>2024-04-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
 
+  
+  <url>
+    <loc>https://odaywu.github.io/categories/%E5%AE%89%E8%A3%85%E8%AE%B0%E5%BD%95/</loc>
+    <lastmod>2024-04-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://odaywu.github.io/categories/%E5%AE%89%E8%A3%85%E8%AE%B0%E5%BD%95/Hexo/</loc>
+    <lastmod>2024-04-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://odaywu.github.io/categories/%E6%8A%98%E8%85%BE%E6%97%A5%E8%AE%B0/</loc>
+    <lastmod>2024-04-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://odaywu.github.io/categories/%E6%8A%98%E8%85%BE%E6%97%A5%E8%AE%B0/Code/</loc>
+    <lastmod>2024-04-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 </urlset>
